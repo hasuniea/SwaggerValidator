@@ -4,60 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Validator</groupId>
-    <artifactId>val</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>LifecycleExecutor</groupId>
+    <artifactId>localEntryExecutor</artifactId>
+    <version>1.0</version>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon</groupId>-->
-<!--            <artifactId>org.wso2.carbon.utils</artifactId>-->
-<!--            <version>4.5.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon</groupId>-->
-<!--            <artifactId>org.wso2.carbon.registry.core</artifactId>-->
-<!--            <version>4.5.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.mediation</groupId>-->
-<!--            <artifactId>org.wso2.carbon.localentry.stub</artifactId>-->
-<!--            <version>4.7.20</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.governance</groupId>-->
-<!--            <artifactId>org.wso2.carbon.governance.api</artifactId>-->
-<!--            <version>4.8.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon</groupId>-->
-<!--            <artifactId>org.wso2.carbon.authenticator.stub</artifactId>-->
-<!--            <version>4.5.1</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.apimgt</groupId>-->
-<!--            <artifactId>org.wso2.carbon.apimgt.impl</artifactId>-->
-<!--            <version>6.5.189</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.apimgt</groupId>-->
-<!--            <artifactId>org.wso2.carbon.apimgt.impl</artifactId>-->
-<!--            <version>6.5.121</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.apimgt</groupId>-->
-<!--            <artifactId>org.wso2.carbon.apimgt.api</artifactId>-->
-<!--            <version>6.5.189</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.mediation</groupId>-->
-<!--            <artifactId>org.wso2.carbon.localentry.stub</artifactId>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.wso2.carbon.apimgt</groupId>-->
-<!--            <artifactId>org.wso2.carbon.apimgt.impl</artifactId>-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.wso2.carbon.mediation</groupId>
             <artifactId>org.wso2.carbon.localentry.stub</artifactId>
@@ -79,7 +30,6 @@
                     <effort>Max</effort>
                     <threshold>Low</threshold>
                     <xmlOutput>true</xmlOutput>
-                    <!--<excludeFilterFile>findbugs_exclude.xml</excludeFilterFile>-->
                     <!--Exclude generated sources-->
                 </configuration>
                 <executions>
