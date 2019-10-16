@@ -1,4 +1,5 @@
 
+package com.wso2.validator;
 import org.apache.axis2.AxisFault;
 import org.apache.axis2.client.Options;
 import org.apache.axis2.client.ServiceClient;
@@ -33,7 +34,6 @@ import org.wso2.carbon.utils.CarbonUtils;
 import org.wso2.carbon.utils.multitenancy.MultitenantConstants;
 
 import java.rmi.RemoteException;
-import java.sql.Timestamp;
 import java.util.Map;
 
 
